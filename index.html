@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Test Deployment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Live Test</span>
+    <h1>Website Online</h1>
+    <p>This test page confirms that your repository, HTML, and CSS are connected and serving properly on GitHub Pages.</p>
+
+    <div class="status-box">
+      <div class="status-indicator"></div>
+      <span id="timestamp">Deploy Status: Active</span>
+    </div>
+
+    <div class="counter-box">
+      <button id="decrement">-</button>
+      <span id="count">0</span>
+      <button id="increment">+</button>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://pages.github.com" target="_blank" rel="noopener">Docs</a>
+    </div>
+  </div>
+
+  <script>
+    // Counter logic
+    let val = 0;
+    const countEl = document.getElementById('count');
+    document.getElementById('increment').addEventListener('click', () => {
+      val++;
+      countEl.textContent = val;
+    });
+    document.getElementById('decrement').addEventListener('click', () => {
+      val--;
+      countEl.textContent = val;
+    });
+  </script>
+</body>
+</html>
