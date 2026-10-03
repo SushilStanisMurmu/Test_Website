@@ -6,8 +6,8 @@
 }
 
 body {
-  background: radial-gradient(circle at top, #1e293b, #0f172a);
-  color: #f8fafc;
+  background: radial-gradient(circle at top, #000000, #ec4899);
+  color: #4a044e;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -16,22 +16,22 @@ body {
 }
 
 .card {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(12px);
   padding: 2.5rem;
   border-radius: 1rem;
   max-width: 440px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 25px -5px rgba(131, 24, 67, 0.25);
 }
 
 .badge {
   display: inline-block;
-  background: rgba(16, 185, 129, 0.15);
-  color: #34d399;
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  background: #fce7f3;
+  color: #be185d;
+  border: 1px solid #f9a8d4;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -44,11 +44,11 @@ body {
 h1 {
   font-size: 1.85rem;
   margin-bottom: 0.75rem;
-  color: #ffffff;
+  color: #831843;
 }
 
 p {
-  color: #94a3b8;
+  color: #86198f;
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
@@ -59,8 +59,8 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: #0f172a;
-  border: 1px solid #334155;
+  background: #fdf2f8;
+  border: 1px solid #fbcfe8;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   font-size: 0.85rem;
@@ -70,9 +70,9 @@ p {
 .status-indicator {
   width: 8px;
   height: 8px;
-  background-color: #10b981;
+  background-color: #ec4899;
   border-radius: 50%;
-  box-shadow: 0 0 8px #10b981;
+  box-shadow: 0 0 8px #ec4899;
 }
 
 .counter-box {
@@ -84,8 +84,8 @@ p {
 }
 
 .counter-box button {
-  background: #38bdf8;
-  color: #0f172a;
+  background: #db2777;
+  color: #ffffff;
   border: none;
   font-size: 1.25rem;
   font-weight: bold;
@@ -112,14 +112,14 @@ p {
 
 .footer-links {
   font-size: 0.85rem;
-  color: #64748b;
+  color: #9d174d;
   display: flex;
   justify-content: center;
   gap: 0.75rem;
 }
 
 .footer-links a {
-  color: #38bdf8;
+  color: #be185d;
   text-decoration: none;
 }
 
